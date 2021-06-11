@@ -3,7 +3,7 @@
     $department = array(
         80 => "Somme",
         62 => "Pas-de-Calais",
-        02   => "Aisne",
+        "02"  => "Aisne",
         59  => "Nord",
         60  => "Oise"
     );
