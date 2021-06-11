@@ -1,12 +1,13 @@
 <?php
 //Tableau associatif
     $department = array(
-        80 => "Somme",
-        62 => "Pas-de-Calais",
-        02   => "Aisne",
-        59  => "Nord",
-        60  => "Oise"
+        80 => 'Somme',
+        62 => 'Pas-de-Calais',
+        '02'   => 'Aisne',
+        59  => 'Nord',
+        60  => 'Oise'
     );
+    $department[51] = 'Marne';
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -18,10 +19,8 @@
 </head>
 <body>
     <?php
-    //Ajoute Reims dans le tableau
-       $department[51] = "Reims";
-       echo $department[51];
-       //print_r($department)
+    //Ajoute Marne dans le tableau
+       print_r($department["02"]);
     ?>
 </body>
 </html>
